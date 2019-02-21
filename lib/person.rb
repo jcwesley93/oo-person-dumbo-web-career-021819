@@ -70,8 +70,8 @@ end
 
 
 def take_bath
-@hygiene = @hygiene + 4
-self.hygiene
+#this method must incremament by 4 while running the conditional logic for hygiene. 
+self.hygiene=(@hygiene +=4)
   "♪ Rub-a-dub just relaxing in the tub ♫"
 end
 
