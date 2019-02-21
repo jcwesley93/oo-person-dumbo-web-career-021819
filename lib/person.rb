@@ -89,9 +89,14 @@ def call_friend(friend)
   self.happiness += 3 #tests are calling for '.happiness', not .happiness= like above..there is no conditional logic attached to this?
   friend.happiness += 3
   
+  #should call on .name - calling on friend will return the instance info. 
   "Hi #{friend.name}! It's #{self.name}. How are you?"
   
 end
+
+def start_conversation
+end
+
   
   
     
