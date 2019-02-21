@@ -25,14 +25,14 @@ else
     end
   end
   
-def hygiene
-  if @hygiene > 10 
-    return 10
-  elsif @hygiene < 0 
-  return 0 
-else return @hygiene 
-    end
-  end  
+# def hygiene
+#   if @hygiene > 10 
+#     return 10
+#   elsif @hygiene < 0 
+#   return 0 
+# else return @hygiene 
+#     end
+#   end  
 
 def hygiene=(new_hygiene)
 if new_hygiene > 10 
