@@ -79,6 +79,7 @@ end
 
 
 def work_out
+  #same process as the last method. 
 self.happiness=(@happiness += 2)
 self.hygiene=(@hygiene -= 3)
   "♪ another one bites the dust ♫"
