@@ -79,7 +79,7 @@ end
 
 
 def work_out
-self.happiness=(@happiness += 4)
+self.happiness=(@happiness += 2)
 self.hygiene=(@hygiene -= 3)
   "♪ another one bites the dust ♫"
 end
