@@ -86,8 +86,10 @@ self.hygiene=(@hygiene -= 3)
 end
 
 def call_friend(friend)
-  self.happiness += 3 #tests are calling for '.happiness', not .happiness= like above
+  self.happiness += 3 #tests are calling for '.happiness', not .happiness= like above..there is no conditional logic attached to this?
   friend.happiness += 3
+  
+  
 end
   
   
