@@ -34,7 +34,7 @@ else return @hygiene
     end
   end  
 
-def hygiene=(new_hygiene)
+def hygiene=(val)
 if new_hygiene > 10 
     @hygiene = 10
   elsif new_hygiene < 0 
