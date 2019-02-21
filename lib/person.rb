@@ -86,7 +86,7 @@ self.hygiene=(@hygiene -= 3)
 end
 
 def call_friend(friend)
-  self.happiness=(@happiness += 3)
+  self.happiness=(@happiness += 3) #tests are calling for '.happiness', not .happiness= like above
   friend.happiness=(@happiness += 3)
 end
   
