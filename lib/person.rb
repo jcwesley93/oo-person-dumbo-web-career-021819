@@ -87,7 +87,7 @@ end
 
 def call_friend(friend)
   self.happiness += 3 #tests are calling for '.happiness', not .happiness= like above
-  friend.happiness=(@happiness += 3)
+  friend.happiness += 3
 end
   
   
