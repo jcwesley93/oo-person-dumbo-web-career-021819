@@ -85,7 +85,7 @@ self.hygiene=(@hygiene -= 3)
   "♪ another one bites the dust ♫"
 end
 
-def call_friend
+def call_friend(friend)
   
 end
   
