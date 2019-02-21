@@ -25,6 +25,7 @@ else
     end
   end
   
+  
 # def hygiene
 #   if @hygiene > 10 
 #     return 10
@@ -78,8 +79,8 @@ end
 
 
 def work_out
-  @happiness += 3
-  @hygiene -= 2 
+self.happiness=(@happiness += 4)
+self.hygiene=(@hygiene -= 3)
   "♪ another one bites the dust ♫"
 end
 
