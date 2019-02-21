@@ -94,7 +94,9 @@ def call_friend(friend)
   
 end
 
-def start_conversation
+def start_conversation(person, topic)
+  
+  
 end
 
   
